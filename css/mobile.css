@@ -44,6 +44,53 @@ header {
     color: white;
 }
 
+.header__icons-container .facebook {
+    background-image: url('https://i.postimg.cc/J09x4v5c/facebook.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 32px;
+    height: 32px;
+}
+
+.header__icons-container .twitter {
+    background-image: url('https://i.postimg.cc/vT1XybfZ/twitter.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 32px;
+    height: 32px;
+}
+
+.header__icons-container .instagram {
+    background-image: url('https://i.postimg.cc/s2XjsN6N/instagram.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 32px;
+    height: 32px;
+}
+
+.header__icons-container .linkedin {
+    background-image: url('https://i.postimg.cc/HWKB281c/linkedin.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 32px;
+    height: 32px;
+}
+
+.header__icons-container .youtube {
+    background-image: url('https://i.postimg.cc/nzSTNCsW/youtube.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 32px;
+    height: 32px;
+}
+
+
+
 
 /* Header__nav */
 .header__nav-container {
