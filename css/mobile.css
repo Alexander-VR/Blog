@@ -121,7 +121,7 @@ header {
 
 
 /* Main */
-main {
+.main__index-container {
     margin: 0 auto;
     margin-top: 30px;
     display: grid;
@@ -142,10 +142,11 @@ main .main__title {
     background-repeat: no-repeat;
     background-size: cover;
 
+    letter-spacing: 3px;
     color: white;
 }
 
-main button {
+main .main__index-button {
     margin: 0 auto;
     margin-top: 20px;
     width: 90px;
@@ -155,8 +156,104 @@ main button {
     background-color: #48cfad;
 }
 
-main button a {
+main .main__index-button a {
     font-weight: 800;
     text-decoration: none;
     color: black;
+}
+
+
+
+/* Página: Blogs */
+/* Main */
+.main__noticias-container {
+    margin: 0 auto;
+    margin-top: 30px;
+    display: grid;
+    grid-template-rows: 1fr 120px;
+    width: 90%;
+    min-width: 280px;
+    max-width: 460px;
+    height: auto;
+}
+
+main .noticia-img {
+    background-color: #e6e9ed;
+}
+
+main .noticia-img h1 {
+    margin: 0 0 10px 0;
+    font-size: 24px;
+}
+
+main .noticia-img img {
+    width: 100%;
+}
+
+.noticia-titles {
+    background-color: #e6e9ed;
+}
+
+main .noticia-titles h2 {
+    margin: 20px 0 10px 0;
+} 
+
+main .noticia-titles p {
+    font-weight: 500;
+}
+
+.noticias-otros {
+    margin-top: 15px;
+
+    text-align: center;
+}
+
+.noticias-otros h3 {
+    margin: 10px;
+}
+
+.noticias-otros .articles-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 15px;
+    text-align: left;
+}
+
+.articles-container img {
+    width: 100%;
+}
+
+.articles-container h4 {
+    margin: 5px 0 10px 0;
+}
+
+.articles-container p {
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.articles-container button {
+    padding: 4px 5px;
+    border:1px solid #48cfad;
+}
+
+.articles-container a {
+    font-size: 9px;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+}
+
+
+
+/* Footer */
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+    
+    color: white;
+    background-color: #22272d;
+    border-top: 15px solid #48cfad;
 }
