@@ -8,8 +8,8 @@ header {
     height: 330px;
 }
 
-.header__icons-container  {
-    height: 70px;
+.header__icons-container div {
+    height: 55px;
 }
 
 .header__icons-container .facebook,
@@ -17,8 +17,8 @@ header {
 .header__icons-container .instagram,
 .header__icons-container .linkedin,
 .header__icons-container .youtube {
-    width: 50px;
-    height: 50px;
+    width: 42px;
+    height: 42px;
 }
 
 
@@ -45,19 +45,23 @@ header {
     grid-template-rows: 1fr;
     width: 100%;
     max-width: 900px;
-    height: 700px;
+    height: 400px;
 }
 
 .main__index-container .main__title {
     font-size: 35px;
+    letter-spacing: 0.8rem;
 }
 
 .main__index-container .main__index-button {
     position: absolute;
     left: calc(50% - 50px);
-    top: 450px;
+    top: 240px;
     width: 100px;
 }
+
+
+
 
 /* Página Blogs  */
 
