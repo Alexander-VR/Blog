@@ -170,12 +170,16 @@ main .main__index-button a {
 /* Main */
 .main__noticias-container {
     margin: 30px auto;
-    display: grid;
-    grid-template-rows: 1fr 160px;
     width: 90%;
     min-width: 280px;
     max-width: 460px;
     height: auto;
+}
+
+.noticia {
+    display: grid;
+    grid-template-rows: 1fr 160px;
+    background-color: #e6e9ed;
 }
 
 main .noticia-img {
@@ -227,6 +231,8 @@ main .noticia-titles a {
 
 .noticias-otros h3 {
     margin: 10px;
+    padding: 10px;
+    border-bottom: 1px solid black;
 }
 
 .noticias-otros .articles-container {
@@ -293,7 +299,13 @@ footer {
 
 /* Main */
 .main__perfil {
+    margin-top: 0;
+}
+
+.main__perfil .perfil {
     margin: 0 auto 0;
+    padding-bottom: 10px;
+    background-color: #e6e9ed;
 }
 
 .projects-container {
